@@ -1,0 +1,50 @@
+.logo{
+    width: 130px;
+}
+.container{
+    height: 50px;
+}
+.Herosection {
+    display: flex;
+    justify-content: flex-end; /* Aligne le contenu à droite */
+    align-items: center;
+    height: 50vh; /* Occupe toute la hauteur de l'écran */
+    background-color: #f0f0f0; /* Couleur d'arrière-plan de la section */
+    padding: 20px;
+}
+
+.Herotext h1 {
+    font-size: 36px; /* Taille du titre */
+    margin-bottom: 10px;
+    color: #0B3D91;
+}
+.Herotext {
+    flex: 1;
+    margin-right: 100px; /* Espace entre le texte et l'image */
+    font-size: 18px;
+}
+.Herotext p {
+    font-size: 16px;
+    color: #555;
+}
+
+.HeroDesign {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%; /* Donne une forme circulaire à l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effet d'ombre pour un design élégant */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste l'image à la taille du conteneur circulaire */
+    margin-right: 50px;
+}
+.bg-nightblue {
+    background-color: #0B3D91; /* Code couleur pour un bleu nuit */
+}
